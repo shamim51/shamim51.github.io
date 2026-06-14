@@ -351,7 +351,7 @@ Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5...
 end....
 
 
-## . Club Admin Onboarding Flow
+##  Club Admin Onboarding Flow(for web team)
 
 ### State Machine
 
