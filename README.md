@@ -348,3 +348,30 @@ Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5...
 
 7. On logout → POST /auth/logout?realm=...&refreshToken=...
 ```
+end....
+
+
+## . Club Admin Onboarding Flow
+
+### State Machine
+
+The frontend drives the multi-step onboarding wizard based on the `status` and `paymentStatus` fields returned by the API.
+
+```
+PENDING_OTP ? PENDING_INFO ? PENDING_PAYMENT ? PENDING_PROVISIONING ? PROVISIONED
+```
+
+| Status | UI Step | Next Action |
+|---|---|---|
+| `PENDING_OTP` | Email input + OTP entry | Call `request-otp`, then `verify-otp` |
+| `PENDING_INFO` | Club info form (name, bio, colors, socials) | Call `PATCH basic-info` |
+| `PENDING_PAYMENT` | Plan selection + payment redirect | Call `POST select-plan` ? redirect to FastPay |
+| `PENDING_PROVISIONING` | Set password + upload logo/banner | Call `POST complete` (multipart) |
+| `PROVISIONED` | Success ? show login URL | Redirect to club subdomain |
+
+### Resume Logic
+
+When a user returns to the onboarding page:
+1. If they have a stored onboarding token, call `GET /onboarding/me`
+2. The response contains the full `registration` state (drives frontend resume logic)
+3. Jump directly to the UI step matching the current status
