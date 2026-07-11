@@ -1,5 +1,7 @@
 # Fan Registration/Signup API Guide
 
+[⬅️ Back to Index](../README.md)
+
 This guide documents the **Fan Registration** flow — how web and mobile clients register a new club fan (USER role) via OTP verification and Keycloak account creation.
 All endpoints live under:
 

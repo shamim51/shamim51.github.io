@@ -1,5 +1,7 @@
 # Sports 360 — Authentication Guide (OAuth 2.0 + PKCE)
 
+[⬅️ Back to Index](../README.md)
+
 This guide explains how frontend and mobile clients authenticate users through the Sports 360 backend using the **Authorization Code Flow with PKCE**. This is the only supported login mechanism.
 
 ---

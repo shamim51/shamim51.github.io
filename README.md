@@ -15,3 +15,7 @@ Welcome to the documentation portal. Below is the index to the guides and API do
 
 * 🌐 **[Frontend Guide — Multilingual Club/Tenant Bio API Changes](multilingual-bio/index.md)**
   Changes regarding multilingual support for tenant branding, onboarding responses, and affected endpoints.
+
+* 🖼️ **[Banner APIs — Frontend Reference](banner-management/index.md)**
+  Specifications for mobile and shop banner management APIs.
+

@@ -1,5 +1,7 @@
 # Frontend Guide — Multilingual Club/Tenant Bio API Changes
 
+[⬅️ Back to Index](../README.md)
+
 ## Change summary
 
 | Before | After |

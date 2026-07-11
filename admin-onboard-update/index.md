@@ -1,5 +1,7 @@
 # Frontend Guide — Team Selection & Onboarding API Changes
 
+[⬅️ Back to Index](../README.md)
+
 This document describes the backend changes for club onboarding **team selection** and the updated **BASIC_INFO** / **COMPLETE** steps. Use it when building or updating the onboarding wizard UI.
 
 **Base URL:** `/api/v1/sports360`
