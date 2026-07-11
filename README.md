@@ -1,7 +1,3 @@
-# Documentation Index
-
-Welcome to the documentation portal. Below is the index to the guides and API documentation available in this repository:
-
 ## 📖 Available Guides
 
 * 🔐 **[Sports 360 — Authentication Guide (OAuth 2.0 + PKCE)](authentication-guide/index.md)**

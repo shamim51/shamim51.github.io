@@ -8,9 +8,9 @@
 
 ```http
 X-Tenant-ID: {tenant-uuid}
+Or 
+X-Tenant-ID: {realm-name}
 ```
-
-Or realm name: `X-Tenant-ID: duhok-fc`
 
 ---
 
@@ -38,7 +38,7 @@ Or realm name: `X-Tenant-ID: duhok-fc`
 
 ```http
 GET /api/v1/sports360/banners?type=MOBILE
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 ```
 
 | Param | Required | Values |
@@ -82,7 +82,7 @@ X-Tenant-ID: 3fa85f64-5717-4562-b3fc-2c963f66afa6
 ```http
 POST /api/v1/sports360/banners
 Content-Type: multipart/form-data
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 Authorization: Bearer <token>
 ```
 
@@ -109,7 +109,7 @@ Authorization: Bearer <token>
 ```http
 PUT /api/v1/sports360/banners/{bannerId}
 Content-Type: multipart/form-data
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 Authorization: Bearer <token>
 ```
 
@@ -142,7 +142,7 @@ Authorization: Bearer <token>
 
 ```http
 DELETE /api/v1/sports360/banners/{bannerId}
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 Authorization: Bearer <token>
 ```
 
@@ -164,7 +164,7 @@ Authorization: Bearer <token>
 ```http
 POST /api/v1/sports360/tenant-admin/branding/banner
 Content-Type: multipart/form-data
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 Authorization: Bearer <token>
 ```
 
@@ -186,7 +186,7 @@ Authorization: Bearer <token>
 
 ```http
 GET /api/v1/sports360/tenant-admin/branding
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 Authorization: Bearer <token>
 ```
 
@@ -209,7 +209,7 @@ Authorization: Bearer <token>
 
 ```http
 GET /api/v1/sports360/tenants/public/me
-X-Tenant-ID: {uuid}
+X-Tenant-ID: {uuid|realm-name}
 ```
 
 **Response (relevant field):**
