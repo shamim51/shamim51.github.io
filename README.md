@@ -15,3 +15,6 @@
 * 🖼️ **[Banner APIs — Frontend Reference](banner-management/index.md)**
   Specifications for mobile and shop banner management APIs.
 
+* 🔑 **[Sports360 — Authorization Model: Roles and Permissions](roles-permissions/index.md)**
+  RBAC model covering permissions, roles, club administrator responsibilities, and access control workflows.
+
