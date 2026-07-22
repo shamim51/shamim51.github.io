@@ -18,3 +18,6 @@
 * 🔑 **[Sports360 — Authorization Model: Roles and Permissions](roles-permissions/index.md)**
   RBAC model covering permissions, roles, club administrator responsibilities, and access control workflows.
 
+* 🛒 **[Ecommerce Permissions — API Mapping](permission-mapping/index.md)**
+  Maps ecommerce RBAC permissions to admin API endpoints and the modules each permission covers.
+
