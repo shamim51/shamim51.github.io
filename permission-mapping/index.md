@@ -155,8 +155,6 @@ This document maps ecommerce RBAC permissions to the admin APIs that require the
 ## Notes
 
 1. **Shared product permissions** — `PRODUCT_*` permissions are reused across catalog modules (Brand, Color, Size, Category, SubCategory) as well as Product and Stock. They are not split per module.
-2. **Public endpoints** — Endpoints such as `GET .../brands/public`, `GET .../products/public/app`, and coupon-by-code for the app do not require these permissions.
-3. **Customer order flows** — Preview, place, cancel, and my-orders endpoints use `isAuthenticated()`, not `ORDER_VIEW` or `ORDER_MANAGE`.
 
 ## Source Controllers
 
