@@ -155,17 +155,3 @@ This document maps ecommerce RBAC permissions to the admin APIs that require the
 ## Notes
 
 1. **Shared product permissions** — `PRODUCT_*` permissions are reused across catalog modules (Brand, Color, Size, Category, SubCategory) as well as Product and Stock. They are not split per module.
-
-## Source Controllers
-
-| Module | Controller |
-|--------|------------|
-| Brand | `ecommerce/brand/controllers/BrandController.java` |
-| Color | `ecommerce/color/controllers/ColorController.java` |
-| Size | `ecommerce/size/controllers/SizeController.java` |
-| Category | `ecommerce/category/controllers/CategoryController.java` |
-| SubCategory | `ecommerce/sub_category/controllers/SubCategoryController.java` |
-| Product | `ecommerce/product/controllers/ProductController.java` |
-| Stock | `ecommerce/stock/controllers/ProductStockController.java` |
-| Order | `ecommerce/order/controllers/CustomerOrderController.java` |
-| Coupon | `ecommerce/coupon/controllers/CouponController.java` |
