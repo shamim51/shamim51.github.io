@@ -1,6 +1,5 @@
-I've updated the document by expanding **Step 2** with guidance on how the frontend/mobile should render the Google button.
-
 # Google Registration Flow (Frontend / Mobile)
+[⬅️ Back to Index](../README.md)
 
 ## Overview
 

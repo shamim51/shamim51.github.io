@@ -21,3 +21,6 @@
 * 🛒 **[Ecommerce Permissions — API Mapping](permission-mapping/index.md)**
   Maps ecommerce RBAC permissions to admin API endpoints and the modules each permission covers.
 
+* 🎫 **[Fan Registration/Signup with google API Guide](google-reg-flow/index.md)**
+  Step-by-step API integration guide for registration lifecycle with google  
+
