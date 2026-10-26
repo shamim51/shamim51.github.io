@@ -1,5 +1,8 @@
 ## 📖 Available Guides
 
+* 🏟️ **[Business and User Onboarding](onboarding/index.md)**
+  How clubs are created in the Nova panel and how fans sign up, followed by the internal architecture of each path.
+
 * 🔐 **[Sports 360 — Authentication Guide (OAuth 2.0 + PKCE)](authentication-guide/index.md)**
   Complete specifications and flow diagrams for OAuth 2.0 with PKCE authentication.
 
